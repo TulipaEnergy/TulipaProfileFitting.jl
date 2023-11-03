@@ -1,0 +1,24 @@
+name = "TulipaProfileFitting"
+uuid = "0aa31362-0b7e-4e8d-8385-676712fa7ef3"
+authors = ["TNO <diego.tejadaarango@tno.nl> and contributors"]
+version = "0.1.0"
+
+[deps]
+AmplNLWriter = "7c4d4715-977e-5154-bfe0-e096adeac482"
+Bonmin_jll = "29cba6d7-6840-5cf2-a2fa-9bdfccfe29ea"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+
+[compat]
+CSV = "0.10"
+DataFrames = "1"
+AmplNLWriter = "1.2.0"
+JuMP = "1"
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

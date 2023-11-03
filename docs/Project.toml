@@ -1,0 +1,10 @@
+# Don't forget to run
+#
+#     pkg> dev ..
+#
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+TulipaProfileFitting = "0aa31362-0b7e-4e8d-8385-676712fa7ef3"
+
+[compat]
+Documenter = "1"
