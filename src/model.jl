@@ -9,27 +9,28 @@ It fits the profile values to the mean value of the profile and the total hours
 in the year. It returns the optimization model and the coefficient of the scaling.
 """
 function fit_profile(profile_values::Vector{Float64}, target_mean::Float64)
-    total_hours = length(profile_values)
+    try
+        # Find the coefficient using the root finding method
+        coefficient = find_zero(x -> sum(profile_values .^ x .- target_mean), [1e-3, 1.0])
+        return coefficient
+    catch e
+        @warn "find_zero failed with error: $e. Using optimization instead."
 
-    # Create a model
-    model = Model(() -> AmplNLWriter.Optimizer(Bonmin_jll.amplexe))
+        total_hours = length(profile_values)
 
-    # Create a variable for the whole year
-    @variable(model, x >= 0)
+        model = Model(() -> AmplNLWriter.Optimizer(Bonmin_jll.amplexe))
+        @variable(model, x >= 0)
+        @NLobjective(
+            model,
+            Min,
+            (
+                sum((profile_values[i])^x for i = 1:total_hours) -
+                target_mean * total_hours
+            )^2
+        )
 
-    # Create the objective function
-    @NLobjective(
-        model,
-        Min,
-        (sum((profile_values[i])^x for i = 1:total_hours) - target_mean * total_hours)^2
-    )
-
-    # Solve the model
-    optimize!(model)
-
-    # Get the solution
-    coefficient = value.(x)
-
-    # Return the coefficient
-    return coefficient
+        optimize!(model)
+        coefficient = value.(x)
+        return coefficient
+    end
 end

@@ -9,13 +9,15 @@ Bonmin_jll = "29cba6d7-6840-5cf2-a2fa-9bdfccfe29ea"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 
 [compat]
+AmplNLWriter = "1.2.0"
 CSV = "0.10"
 DataFrames = "1"
-AmplNLWriter = "1.2.0"
 JuMP = "1"
 julia = "1"
+Roots = "2"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
