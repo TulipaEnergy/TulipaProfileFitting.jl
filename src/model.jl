@@ -4,9 +4,16 @@ export fit_profile
     fit_profile(profile_values::Vector{Float64},
                 target_mean::Float64)
 
-This function takes a vector of profile values and the total hours in the year.
-It fits the profile values to the mean value of the profile and the total hours
-in the year. It returns the optimization model and the coefficient of the scaling.
+Fits a profile to a target mean using either root finding or optimization.
+
+# Arguments
+
+  - `profile_values::Vector{Float64}`: A vector of profile values.
+  - `target_mean::Float64`: The target mean to fit the profile to.
+
+# Returns
+
+  - `coefficient::Float64`: The coefficient that fits the profile to the target mean.
 """
 function fit_profile(profile_values::Vector{Float64}, target_mean::Float64)
     try
