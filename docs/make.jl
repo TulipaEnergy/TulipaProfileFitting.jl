@@ -18,7 +18,8 @@ makedocs(;
     format = Documenter.HTML(;
         prettyurls = get(ENV, "CI", "false") == "true",
         canonical = "https://TulipaEnergy.github.io/TulipaProfileFitting.jl",
-        assets = ["assets/style.css"],
+        edit_link = "main",
+        assets = String[],
     ),
     pages = [
         "Home" => "index.md",
@@ -29,4 +30,4 @@ makedocs(;
     ],
 )
 
-deploydocs(; repo = "github.com/TulipaEnergy/TulipaProfileFitting.jl", push_preview = true)
+deploydocs(; repo = "github.com/TulipaEnergy/TulipaProfileFitting.jl", devbranch = "main")
