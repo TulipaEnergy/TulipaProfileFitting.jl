@@ -6,6 +6,7 @@ using DataFrames
 using AmplNLWriter
 using Bonmin_jll
 using JuMP
+using Roots
 
 include("model.jl")
 
