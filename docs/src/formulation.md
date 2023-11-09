@@ -10,11 +10,11 @@ This section shows the nonlinear equation used in this package to obtain the coe
 
 Where:
 
-- Coefficient to fit the hourly values of the profile: $x$
+- ``x``: coefficient to fit the hourly values of the profile
 
-- Profile value at each hour: $P_{h}$
+- ``P_{h}``: profile value at hour ``h``
 
-- Target full load hours: $FLH$
+- ``FLH``: target full load hours
 
 ```math
 \displaystyle {FLH = total\_number\_of\_hours \cdot target\_mean}
@@ -28,7 +28,7 @@ This section shows the mathematical formulation of the nonlinear programming (NL
 \displaystyle {\min_{x} {\left(\sum_{h}P_{h}^{x} - FLH\right)}^{2}}
 ```
 
-$s.t.$
+``s.t.``
 
 ```math
 x \geq 0
