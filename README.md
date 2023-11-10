@@ -9,7 +9,7 @@
 [![Docs workflow Status](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/actions/workflows/Docs.yml/badge.svg?branch=main)](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/actions/workflows/Docs.yml?query=branch%3Amain)
 
 [![Coverage](https://codecov.io/gh/TulipaEnergy/TulipaProfileFitting.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/TulipaEnergy/TulipaProfileFitting.jl)
-<!-- [![DOI](https://zenodo.org/badge/DOI/FIXME)](https://doi.org/FIXME) -->
+[![DOI](https://zenodo.org/badge/713828792.svg)](https://zenodo.org/doi/10.5281/zenodo.10100567)
 
 This package fits renewable time series profiles from historical data to future target capacity factors.
 
@@ -19,8 +19,9 @@ If you use TulipaProfileFitting.jl in your work, please cite using the reference
 
 ## Installation
 
-```julia-pkg
-pkg> add TulipaProfileFitting
+```julia
+using Pkg
+Pkg.add("TulipaProfileFitting")
 ```
 
 See the [documentation](https://tulipaenergy.github.io/TulipaProfileFitting.jl/dev/) for details on the model and the package.
