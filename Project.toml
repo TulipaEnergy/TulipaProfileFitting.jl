@@ -1,6 +1,6 @@
 name = "TulipaProfileFitting"
 uuid = "0aa31362-0b7e-4e8d-8385-676712fa7ef3"
-authors = ["TNO <diego.tejadaarango@tno.nl> and contributors"]
+authors = ["Diego A. Tejada-Arango <diego.tejadaarango@tno.nl>", "Germán Morales-España <german.morales@tno.nl>", "Abel Soares Siqueira <abel.s.siqueira@gmail.com>"]
 version = "0.1.0"
 
 [deps]
