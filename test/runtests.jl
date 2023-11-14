@@ -13,6 +13,16 @@ function test_fit_profile()
     target_mean = 0.4
     expected_coefficient = 1.2550552057968192
     @test find_solution(profile_values, target_mean) ≈ expected_coefficient atol = 1e-3
+
+    # Test case 3: target mean μ < n/m
+    target_mean = 0.1
+    expected_coefficient = 1000.0
+    @test find_solution(profile_values, target_mean) ≈ expected_coefficient atol = 1e-3
+
+    # Test case 4: target mean μ > r/m
+    target_mean = 0.9
+    expected_coefficient = 0.0
+    @test find_solution(profile_values, target_mean) ≈ expected_coefficient atol = 1e-3
 end
 
 @testset "TulipaProfileFitting" begin
