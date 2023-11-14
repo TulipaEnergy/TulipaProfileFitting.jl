@@ -34,7 +34,7 @@ Let's define a new capacity factor as 0.6
 target_cp = 0.6
 ```
 
-We can use the function ``find\_solution`` in this package to obtain the coefficient that fit the values to the target.
+We can use the function `find_solution` in this package to obtain the coefficient that fit the values to the target.
 
 ```julia
 coefficient = find_solution(profile_values, target_cp)

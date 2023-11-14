@@ -1,7 +1,7 @@
 export find_solution, find_search_interval
 
 """
-(a, b) = find_search_interval(f)
+    (a, b) = find_search_interval(f)
 
 Returns an interval such that ``f(a) × f(b) ≯ 0``.
 It could be 0 for either endpoint, but it is not positive,
@@ -21,7 +21,7 @@ function find_search_interval(f)
 end
 
 """
-x = find_solution(P, μ)
+    x = find_solution(P, μ)
 
 Finds a points such that ``S(x) = μ``, if possible, where
 
