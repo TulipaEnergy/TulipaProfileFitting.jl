@@ -1,7 +1,7 @@
 name = "TulipaProfileFitting"
 uuid = "0aa31362-0b7e-4e8d-8385-676712fa7ef3"
 authors = ["Diego A. Tejada-Arango <diego.tejadaarango@tno.nl>", "Germán Morales-España <german.morales@tno.nl>", "Abel Soares Siqueira <abel.s.siqueira@gmail.com>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
