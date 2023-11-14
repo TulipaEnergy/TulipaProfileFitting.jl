@@ -34,13 +34,13 @@ Let's define a new capacity factor as 0.6
 target_cp = 0.6
 ```
 
-We can use the function ``fit\_profile`` in this package to obtain the coefficient that fit the values to the target.
+We can use the function ``find\_solution`` in this package to obtain the coefficient that fit the values to the target.
 
 ```julia
-coefficient = fit_profile(profile_values, target_cp)
+coefficient = find_solution(profile_values, target_cp)
 ```
 
-The coefficient is the output of an optimization problem. To learn more, please refer to the mathematical formulation section.
+The coefficient is the output of solving a non-linear equation ``f(x)=0``. To learn more, please refer to the mathematical formulation section.
 
 Using the coefficient, we can determine the new profile and plot the power production curves.
 
