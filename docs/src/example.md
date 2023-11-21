@@ -10,10 +10,12 @@ So, Let's start loading the values from the file!
 using TulipaProfileFitting
 using CSV
 using Plots
+using DataFrames
+using HTTP
 
-file_url = "https://github.com/TulipaEnergy/TulipaProfileFitting.jl/tree/main/docs/src/files/wind_power_profile.csv"
+file_url = "https://raw.githubusercontent.com/TulipaEnergy/TulipaProfileFitting.jl/main/docs/src/files/wind_power_profile.csv"
 
-df = DataFrame(CSV.File(file_url, header=4))
+df = DataFrame(CSV.File(HTTP.get(file_url).body, header=4))
 ```
 
 From the dataframe we can get the profile values as follows:
