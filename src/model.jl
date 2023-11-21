@@ -3,7 +3,7 @@ export find_solution, find_search_interval
 """
     (a, b) = find_search_interval(f)
 
-Returns an interval such that ``f(a) × f(b) > 0``.
+Returns an interval such that ``f(a) × f(b) ≤ 0``.
 It could be 0 for either endpoint, but it is not positive,
 ensuring that there is a root in `[a, b]`.
 """
@@ -54,9 +54,7 @@ end
 Validates if the values of profile P are within 0 and 1. If not, throws an error message and stops the calculation.
 """
 function validate_profile(P)
-    for value in P
-        if value < 0 || value > 1
-            error("Profile values must be within 0 and 1. Calculation stopped.")
-        end
+    if !all(0 .≤ P .≤ 1)
+        error("Profile values must be within 0 and 1. Calculation stopped.")
     end
 end
