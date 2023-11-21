@@ -25,8 +25,15 @@ function test_fit_profile()
     @test find_solution(profile_values, target_mean) ≈ expected_coefficient atol = 1e-3
 end
 
+function test_throws_error()
+    profile_values = [-0.5, 0.2, 0.8, 1.5]
+    target_mean = 0.5
+    @test_throws ErrorException find_solution(profile_values, target_mean)
+end
+
 @testset "TulipaProfileFitting" begin
     @testset "fit_profile" begin
         test_fit_profile()
+        test_throws_error()
     end
 end
