@@ -28,7 +28,7 @@ See the [documentation](https://tulipaenergy.github.io/TulipaProfileFitting.jl/d
 
 ## Contributing
 
-If you want to make contributions of any kind, please first that a look into our [contributing guide directly on GitHub](docs/src/contributing.md) or the [contributing page on the website](https://TulipaEnergy.github.io/TulipaProfileFitting.jl/dev/contributing/).
+If you want to make contributions of any kind, please first take a look at our [contributing guide directly on GitHub](docs/src/contributing.md) or the [contributing page on the website](https://TulipaEnergy.github.io/TulipaProfileFitting.jl/dev/contributing/).
 
 ---
 
