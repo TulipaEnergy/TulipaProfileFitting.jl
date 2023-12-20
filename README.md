@@ -2,6 +2,7 @@
 
 <!-- This check was disabled because these links don't exist until you push, create documentation, and create your first release -->
 <!-- markdown-link-check-disable -->
+[![Stable Documentation](https://img.shields.io/badge/docs-stable-blue.svg)](https://TulipaEnergy.github.io/TulipaProfileFitting.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://TulipaEnergy.github.io/TulipaProfileFitting.jl/dev)
 [![Build Status](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/workflows/Test/badge.svg)](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/actions)
 [![Test workflow status](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/actions/workflows/Test.yml/badge.svg?branch=main)](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/actions/workflows/Test.yml?query=branch%3Amain)
