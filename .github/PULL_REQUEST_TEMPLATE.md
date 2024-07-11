@@ -1,18 +1,27 @@
-# Pull request details
+<!--
+Thanks for making a pull request to TulipaProfileFitting.jl.
+We have added this PR template to help you help us.
+Make sure to read the contributing guidelines and abide to the code of conduct.
+See the comments below, fill the required fields, and check the items.
+-->
 
-## Describe the changes made in this pull request
+## Related issues
 
-<!-- include screenshots if that helps the review -->
+<!-- We normally work with (i) create issue; (ii) discussion if necessary; (iii) create PR. So, at least one of the following should be true:-->
 
-## List of related issues or pull requests
+<!-- Option 1, this closes an existing issue. Fill the number below-->
+Closes #
 
-Closes #ISSUE_NUMBER
+<!-- Option 2, this is a small fix that arguably won't need an issue. Uncomment below -->
+<!--
+There is no related issue.
+-->
 
-## Collaboration confirmation
+## Checklist
 
-As a contributor I confirm
-
-- [ ] I read and followed the instructions in README.dev.md
-- [ ] The documentation is up to date with the changes introduced in this Pull Request (or NA)
+<!-- mark true if NA -->
+<!-- leave PR as draft until all is checked -->
+- [ ] I am following the [contributing guidelines](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/blob/main/docs/src/90-contributing.md)
 - [ ] Tests are passing
-- [ ] Lint is passing
+- [ ] Lint workflow is passing
+- [ ] Docs were updated and workflow is passing
