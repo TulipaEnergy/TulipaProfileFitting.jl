@@ -1,6 +1,8 @@
 # Example
 
-[TulipaProfileFitting.jl](https://github.com/TulipaEnergy/TulipaProfileFitting.jl) is primarily used to fit power production curves of renewable sources such as wind and solar. In this example, we have generated a time series for a wind power plant's power production using a method developed in [1]. The file [wind\_power\_profile.csv](./files/wind_power_profile.csv) contains all the details of the profile.
+[TulipaProfileFitting.jl](https://github.com/TulipaEnergy/TulipaProfileFitting.jl) is primarily used to fit power production curves of renewable sources such as wind and solar. In this example, we have generated a time series for a wind power plant's power availability production using a method developed in [1], which is available as a online tool here [Renewables Ninja](https://www.renewables.ninja/).
+
+The file [wind\_power\_profile.csv](./files/wind_power_profile.csv) contains all the details of the generated profile.
 
 So, Let's start loading the values from the file!
 
@@ -24,13 +26,13 @@ From the dataframe we can get the profile values as follows:
 profile_values = df.electricity
 ```
 
-The current capacity factor (e.g., mean value) can be determined using the following command:
+The current capacity factor of full load hours (e.g., mean value) can be determined using the following command:
 
 ```julia
 current_cp = round(sum(profile_values)/8760;digits=2)
 ```
 
-Let's define a new capacity factor as 0.6
+Let's define a new capacity factor of full load hours as 0.6
 
 ```julia
 target_cp = 0.6
@@ -69,3 +71,5 @@ plot!(title="Profiles values - sorted")
 ![Sorted results](./figs/ex-sorted.png)
 
 It can be observed that the fitted curve primarily affects the intermediate value within the entire range. The values closer to one or zero remain relatively unchanged. This outcome is expected since the primary objective of the package is to adjust the intermediate value, thereby increasing or decreasing the capacity factor.
+
+This example can also be found as a notebook in the repository here: [TulipaProfileFitting.jl/notebooks](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/tree/main/notebooks)
