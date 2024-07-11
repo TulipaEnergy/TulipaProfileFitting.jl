@@ -8,7 +8,8 @@ DocMeta.setdocmeta!(
     recursive = true,
 )
 
-const page_rename = Dict("developer.md" => "Developer docs") # Without the numbers
+const page_rename =
+    Dict("developer.md" => "Developer docs", "formulation.md" => "Mathematical formulation") # Without the numbers
 
 function nice_name(file)
     file = replace(file, r"^[0-9]*-" => "")
