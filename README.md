@@ -10,7 +10,7 @@
 [![Coverage](https://codecov.io/gh/TulipaEnergy/TulipaProfileFitting.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/TulipaEnergy/TulipaProfileFitting.jl)
 [![DOI](https://zenodo.org/badge/713828792.svg)](https://zenodo.org/doi/10.5281/zenodo.10100567)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
-[![All Contributors](https://img.shields.io/github/all-contributors/TulipaEnergy/TulipaProfileFitting.jl?labelColor=5e1ec7&color=c0ffee&style=flat-square))](#contributors)
+[![All Contributors](https://img.shields.io/github/all-contributors/TulipaEnergy/TulipaProfileFitting.jl?labelColor=5e1ec7&color=c0ffee&style=flat-square)](#contributors)
 
 This package fits renewable time series profiles from historical data to future target capacity factors.
 
