@@ -26,7 +26,7 @@ Pkg.add("TulipaProfileFitting")
 If you use TulipaProfileFitting.jl in your work, please cite using the reference given in [CITATION.cff](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/blob/main/CITATION.cff) for the code and the following paper ([journal](https://doi.org/10.1016/j.softx.2024.101844), [preprint](https://arxiv.org/abs/2311.15281)) for the methodology:
 
 ```bibtex
-@article{Tejada2024,
+@article{TejadaSiqueiraMorales2024,
     author = {Diego A. Tejada-Arango and Abel S. Siqueira and Özge Özdemir and Germán Morales-España},
     title = {TulipaProfileFitting.jl: A Julia package for fitting renewable energy time series profiles},
     journal = {SoftwareX},
@@ -49,7 +49,6 @@ If you want to make contributions of any kind, please first that a look into our
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
 <table>
   <tbody>
     <tr>
