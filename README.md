@@ -10,7 +10,7 @@
 [![Coverage](https://codecov.io/gh/TulipaEnergy/TulipaProfileFitting.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/TulipaEnergy/TulipaProfileFitting.jl)
 [![DOI](https://zenodo.org/badge/713828792.svg)](https://zenodo.org/doi/10.5281/zenodo.10100567)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
-[![All Contributors](https://img.shields.io/github/all-contributors/TulipaEnergy/TulipaProfileFitting.jl?labelColor=5e1ec7&color=c0ffee&style=flat-square))](#contributors)
+[![All Contributors](https://img.shields.io/github/all-contributors/TulipaEnergy/TulipaProfileFitting.jl?labelColor=5e1ec7&color=c0ffee&style=flat-square)](#contributors)
 
 This package fits renewable time series profiles from historical data to future target capacity factors.
 
@@ -23,7 +23,20 @@ Pkg.add("TulipaProfileFitting")
 
 ## How to Cite
 
-If you use TulipaProfileFitting.jl in your work, please cite using the reference given in [CITATION.cff](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/blob/main/CITATION.cff).
+If you use TulipaProfileFitting.jl in your work, please cite using the reference given in [CITATION.cff](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/blob/main/CITATION.cff) for the code and the following paper ([journal](https://doi.org/10.1016/j.softx.2024.101844), [preprint](https://arxiv.org/abs/2311.15281)) for the methodology:
+
+```bibtex
+@article{Tejada2024,
+    author = {Diego A. Tejada-Arango and Abel S. Siqueira and Özge Özdemir and Germán Morales-España},
+    title = {TulipaProfileFitting.jl: A Julia package for fitting renewable energy time series profiles},
+    journal = {SoftwareX},
+    volume = {27},
+    pages = {101844},
+    year = {2024},
+    issn = {2352-7110},
+    doi = {https://doi.org/10.1016/j.softx.2024.101844},
+}
+```
 
 ## Contributing
 
