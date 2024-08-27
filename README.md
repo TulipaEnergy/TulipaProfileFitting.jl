@@ -26,7 +26,7 @@ Pkg.add("TulipaProfileFitting")
 If you use TulipaProfileFitting.jl in your work, please cite using the reference given in [CITATION.cff](https://github.com/TulipaEnergy/TulipaProfileFitting.jl/blob/main/CITATION.cff) for the code and the following paper ([journal](https://doi.org/10.1016/j.softx.2024.101844), [preprint](https://arxiv.org/abs/2311.15281)) for the methodology:
 
 ```bibtex
-@article{TejadaSiqueiraMorales2024,
+@article{Tejada-Siqueira-Özdemir-Morales2024,
     author = {Diego A. Tejada-Arango and Abel S. Siqueira and Özge Özdemir and Germán Morales-España},
     title = {TulipaProfileFitting.jl: A Julia package for fitting renewable energy time series profiles},
     journal = {SoftwareX},
@@ -52,8 +52,9 @@ If you want to make contributions of any kind, please first that a look into our
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/datejada"><img src="https://avatars.githubusercontent.com/u/12887482?v=4?s=100" width="100px;" alt="Diego Tejada"/><br /><sub><b>Diego Tejada</b></sub></a><br /><a href="#code-datejada" title="Code">💻</a> <a href="#doc-datejada" title="Documentation">📖</a> <a href="#maintenance-datejada" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://abelsiqueira.com"><img src="https://avatars.githubusercontent.com/u/1068752?v=4?s=100" width="100px;" alt="Abel Soares Siqueira"/><br /><sub><b>Abel Soares Siqueira</b></sub></a><br /><a href="#review-abelsiqueira" title="Reviewed Pull Requests">👀</a> <a href="#ideas-abelsiqueira" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/datejada"><img src="https://avatars.githubusercontent.com/u/12887482?v=4?s=100" width="100px;" alt="Diego Tejada"/><br /><sub><b>Diego Tejada</b></sub></a><br /><a href="#code-datejada" title="Code">💻</a> <a href="#doc-datejada" title="Documentation">📖</a> <a href="#maintenance-datejada" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/g-moralesespana"><img src="https://avatars.githubusercontent.com/u/42405171?v=4?s=100" width="100px;" alt="Germán Morales-España"/><br /><sub><b>Germán Morales-España</b></sub></a><br /><a href="#ideas-g-moralesespana" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/clizbe"><img src="https://avatars.githubusercontent.com/u/11889283?v=4?s=100" width="100px;" alt="Lauren Clisby"/><br /><sub><b>Lauren Clisby</b></sub></a><br /><a href="#projectManagement-abelsiqueira" title="Project Management">📆</a></td>
     </tr>
   </tbody>

@@ -1,5 +1,52 @@
 {
-  "projectName": "TulipaProfileFitting",
-  "projectOwner": "TulipaEnergy",
-  "files": ["README.md", "docs/src/index.md"]
+    "projectName": "TulipaProfileFitting.jl",
+    "projectOwner": "TulipaEnergy",
+    "files": [
+        "README.md",
+        "docs/src/index.md"
+    ],
+    "commitType": "docs",
+    "commitConvention": "angular",
+    "contributorsPerLine": 7,
+    "contributors": [
+        {
+            "login": "abelsiqueira",
+            "name": "Abel Soares Siqueira",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1068752?v=4",
+            "profile": "https://abelsiqueira.com",
+            "contributions": [
+                "ideas",
+                "review"
+            ]
+        },
+        {
+            "login": "datejada",
+            "name": "Diego Tejada",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12887482?v=4",
+            "profile": "https://github.com/datejada",
+            "contributions": [
+                "code",
+                "doc",
+                "maintenance"
+            ]
+        },
+        {
+            "login": "g-moralesespana",
+            "name": "Germán Morales-España",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42405171?v=4",
+            "profile": "https://github.com/g-moralesespana",
+            "contributions": [
+                "ideas"
+            ]
+        },
+        {
+            "login": "clizbe",
+            "name": "Lauren Clisby",
+            "avatar_url": "https://avatars.githubusercontent.com/u/11889283?v=4",
+            "profile": "https://github.com/clizbe",
+            "contributions": [
+                "projectManagement"
+            ]
+        }
+    ]
 }
