@@ -9,4 +9,4 @@ PackageName: TulipaProfileFitting
 PackageOwner: TulipaEnergy
 PackageUUID: 0aa31362-0b7e-4e8d-8385-676712fa7ef3
 _commit: v0.7.0
-_src_path: https://github.com/abelsiqueira/COPIERTemplate.jl
+_src_path: https://github.com/JuliaBesties/BestieTemplate.jl
