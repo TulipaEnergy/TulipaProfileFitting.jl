@@ -1,12 +1,41 @@
 # Changes here will be overwritten by Copier
-AnswerStrategy: recommended
-AuthorEmail: diego.tejadaarango@tno.nl
-AuthorName: TNO
-Indentation: 4
-JuliaMinVersion: '1.6'
+AddAllcontributors: true
+AddCitationCFF: true
+AddCodeOfConduct: true
+AddCompatHelperCI: true
+AddContributionDocs: true
+AddCopierCI: false
+AddDependabot: true
+AddDocs: true
+AddDocsCI: true
+AddFormatterAndLinterConfigFiles: true
+AddGitHubPRTemplate: true
+AddGitHubTemplates: true
+AddLintCI: true
+AddLychee: true
+AddMacToCI: false
+AddPrecommit: true
+AddTagBotCI: true
+AddTestCI: true
+AddWinToCI: false
+Authors: Diego Tejada <diego.tejadaarango@tno.nl> and contributors
+AutoIncludeTests: true
+CheckExplicitImports: false
+CodeOfConductContact: diego.tejadaarango@tno.nl
+ConfigIndentation: 2
+JuliaIndentation: 4
+JuliaMinCIVersion: lts
+JuliaMinVersion: "1.10"
 License: Apache-2.0
+LicenseCopyrightHolders: Diego Tejada
+MarkdownIndentation: 4
 PackageName: TulipaProfileFitting
 PackageOwner: TulipaEnergy
 PackageUUID: 0aa31362-0b7e-4e8d-8385-676712fa7ef3
-_commit: v0.7.0
+RunJuliaNightlyOnCI: false
+StrategyConfirmIncluded: true
+StrategyLevel: 2
+StrategyReviewExcluded: true
+UseCirrusCI: false
+_commit: v0.16.2
 _src_path: https://github.com/JuliaBesties/BestieTemplate.jl
